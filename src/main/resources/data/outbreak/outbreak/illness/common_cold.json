@@ -1,0 +1,29 @@
+{
+  "vector": "airborne",
+  "contagious": true,
+  "incubation_ticks": 2400,
+  "natural_recovery_ticks": 72000,
+  "treatment_ticks": 6000,
+  "recovery_ticks": 6000,
+  "immunity_ticks": 96000,
+  "symptom_interval_ticks": 300,
+  "treatment": "supportive",
+  "treated_symptom_factor": 3,
+  "recovering_symptom_factor": 6,
+  "symptoms": ["sneeze", "cough"],
+  "spread": {
+    "range_blocks": 6.0,
+    "chance": 0.002,
+    "interval_ticks": 200,
+    "incubating_factor": 0.0,
+    "symptomatic_factor": 1.0,
+    "treated_factor": 0.2,
+    "recovering_factor": 0.1
+  },
+  "natural_onset": {
+    "chance": 0.0003,
+    "wet_multiplier": 2.5,
+    "cold_multiplier": 2.0,
+    "cold_below_temperature": 0.3
+  }
+}

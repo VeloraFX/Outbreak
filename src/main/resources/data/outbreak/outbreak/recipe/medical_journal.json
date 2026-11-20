@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [ "minecraft:book", "outbreak:sterile_swab" ],
+  "result": { "id": "outbreak:medical_journal", "count": 1 }
+}

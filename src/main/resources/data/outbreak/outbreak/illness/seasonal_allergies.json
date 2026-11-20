@@ -1,0 +1,29 @@
+{
+  "vector": "none",
+  "contagious": false,
+  "incubation_ticks": 200,
+  "natural_recovery_ticks": 72000,
+  "treatment_ticks": 4000,
+  "recovery_ticks": 3000,
+  "immunity_ticks": 6000,
+  "symptom_interval_ticks": 500,
+  "treatment": "antihistamine",
+  "treated_symptom_factor": 3,
+  "recovering_symptom_factor": 6,
+  "natural_onset": {
+    "chance": 0.00015,
+    "biome_multiplier": 2.0,
+    "biomes": [
+      "minecraft:plains",
+      "minecraft:sunflower_plains",
+      "minecraft:meadow",
+      "minecraft:flower_forest",
+      "minecraft:cherry_grove"
+    ],
+    "day_multiplier": 1.5,
+    "night_multiplier": 0.5,
+    "wet_multiplier": 0.5,
+    "cold_multiplier": 0.25,
+    "cold_below_temperature": 0.3
+  }
+}

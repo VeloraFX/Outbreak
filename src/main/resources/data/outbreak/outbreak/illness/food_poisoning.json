@@ -1,0 +1,29 @@
+{
+  "vector": "foodborne",
+  "contagious": true,
+  "incubation_ticks": 1200,
+  "natural_recovery_ticks": 48000,
+  "treatment_ticks": 4000,
+  "recovery_ticks": 3000,
+  "immunity_ticks": 24000,
+  "symptom_interval_ticks": 250,
+  "treatment": "rehydration",
+  "treated_symptom_factor": 3,
+  "recovering_symptom_factor": 6,
+  "symptoms": ["stomach_clutch", "shiver"],
+  "spread": {
+    "range_blocks": 4.0,
+    "chance": 0.012,
+    "interval_ticks": 200,
+    "incubating_factor": 0.0,
+    "symptomatic_factor": 1.0,
+    "treated_factor": 0.1,
+    "recovering_factor": 0.05
+  },
+  "natural_onset": {
+    "chance": 0.0002,
+    "requires_food": true,
+    "warm_multiplier": 1.5,
+    "warm_from_temperature": 0.8
+  }
+}

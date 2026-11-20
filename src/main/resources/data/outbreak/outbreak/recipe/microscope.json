@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": { "G": "minecraft:glass_pane", "C": "minecraft:copper_ingot", "I": "minecraft:iron_ingot" },
+  "pattern": [ " G ", " C ", "III" ],
+  "result": { "id": "outbreak:microscope", "count": 1 }
+}

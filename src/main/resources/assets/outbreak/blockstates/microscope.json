@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "outbreak:block/microscope" },
+    "facing=east":  { "model": "outbreak:block/microscope", "y": 90 },
+    "facing=south": { "model": "outbreak:block/microscope", "y": 180 },
+    "facing=west":  { "model": "outbreak:block/microscope", "y": 270 }
+  }
+}

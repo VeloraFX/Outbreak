@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": { "G": "minecraft:glass_pane", "C": "minecraft:copper_ingot", "S": "minecraft:stick" },
+  "pattern": [ " G ", " C ", " S " ],
+  "result": { "id": "outbreak:examination_tool", "count": 1 }
+}

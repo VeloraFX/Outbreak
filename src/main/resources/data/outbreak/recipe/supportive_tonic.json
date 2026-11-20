@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [ "minecraft:honey_bottle", "minecraft:sweet_berries", "minecraft:dandelion" ],
+  "result": { "id": "outbreak:supportive_tonic", "count": 2 }
+}

@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "outbreak",
+	"version": "${version}",
+	"name": "Outbreak",
+	"description": "Villagers catch colds, flu, allergies and food poisoning. Spot the symptoms, swab, study the sample under a microscope, diagnose and treat — before it spreads.",
+	"authors": [
+		"Velora"
+	],
+	"license": "LicenseRef-All-Rights-Reserved",
+	"icon": "assets/outbreak/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"velora.outbreak.OutbreakMod"
+		],
+		"client": [
+			"velora.outbreak.client.OutbreakClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": ">=0.155.3"
+	}
+}
